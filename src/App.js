@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
-
 import './App.css';
 import SearchIcon from './search.svg';
 
@@ -17,7 +16,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    searchMovies('Spiderman');
+    searchMovies('');
   }, []);
 
   return (
